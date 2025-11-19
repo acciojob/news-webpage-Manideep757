@@ -3,6 +3,9 @@ body{
 	font-family:arial;
 	background-color:#f5f5f5;
 }
+.content{
+	display:inline-axis;
+}
 .header{
 	width:100%;
 	background-color:#011e29;
@@ -18,7 +21,30 @@ body{
 	background-color:white;
 }
 .main-article{
-	width:40%;
+	width:35%;
+	margin-top:10px;
+	padding:5px;
+	text-align:justify;
+	border-radius:20px;
 	background-color:white;
-	display:inline;
 }
+.main-article h3{
+	text-align:center;
+}
+.pictorial-news-section{
+	width:35%;
+	margin-top:10px;
+	padding:5px;
+	text-align:justify;
+	border-radius:20px;
+	background-color:white;
+}
+.pictorial-news-section img{
+	width:100%;
+	margin-bottom:10px;
+	border-radius:1px;
+}
+.pictorial-news-section h3{
+	text-align:center;
+}
+
